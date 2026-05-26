@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>酒蔵めぐり - 更新履歴</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Hiragino Sans', 'Noto Sans JP', sans-serif;
+      background: #f8f4f0;
+      color: #1a1a1a;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #8B0000;
+      color: #fff;
+      padding: 20px 24px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 1.3em;
+      font-weight: bold;
+    }
+    header p {
+      margin: 4px 0 0;
+      font-size: 0.85em;
+      opacity: 0.85;
+    }
+    main {
+      max-width: 640px;
+      margin: 0 auto;
+      padding: 24px 16px 60px;
+    }
+    .version-block {
+      background: #fff;
+      border-radius: 12px;
+      padding: 18px 20px;
+      margin-bottom: 16px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.07);
+    }
+    .version-header {
+      display: flex;
+      align-items: baseline;
+      gap: 10px;
+      margin-bottom: 12px;
+    }
+    .version-number {
+      font-size: 1.1em;
+      font-weight: bold;
+      color: #8B0000;
+    }
+    .version-date {
+      font-size: 0.82em;
+      color: #999;
+    }
+    ul {
+      margin: 0;
+      padding-left: 1.4em;
+    }
+    li {
+      margin-bottom: 6px;
+      font-size: 0.92em;
+      line-height: 1.55;
+      color: #333;
+    }
+    li.fix::marker { content: "🔧 "; }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.8em;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🍶 酒蔵めぐり</h1>
+    <p>更新履歴</p>
+  </header>
+  <main>
+
+    <div class="version-block">
+      <div class="version-header">
+        <span class="version-number">バージョン 1.0.5</span>
+        <span class="version-date">2026年5月</span>
+      </div>
+      <ul>
+        <li>AIルートプランナーを全ユーザーに開放（無料4回・プレミアムは月50回）</li>
+        <li>AIルートプランナーの条件フォームをカードUIに整理（出発・目的地・移動手段・こだわり）</li>
+        <li>AIルートプランナーの酒蔵選定精度を大幅改善（近い蔵を優先・こだわり反映）</li>
+        <li>プレミアム会員特典を追加：コメント編集・削除、AIルートプランナー、広告非表示</li>
+        <li>マイページに訪問記録・スタンプ帳へのショートカットを追加</li>
+        <li>地図・検索フィルターに「試飲（どちらか）」を追加</li>
+        <li>地図・検索の起動が速くなった</li>
+        <li>更新履歴ページを追加</li>
+        <li class="fix">【修正】ランキングにマイページのアイコン（絵文字・写真）が反映されない問題を修正</li>
+        <li class="fix">【修正】ログイン画面でキーボードがボタンを隠す問題を修正</li>
+        <li class="fix">【修正】「休業」表示を「お休み」「不定休」に変更</li>
+      </ul>
+    </div>
+
+    <div class="version-block">
+      <div class="version-header">
+        <span class="version-number">バージョン 1.0.4</span>
+        <span class="version-date">2026年5月</span>
+      </div>
+      <ul>
+        <li>AIルートプランナーを刷新（最適なルート順に自動整列・カードUI・交通手段表示）</li>
+        <li>AIルートプランナーに「必ず行きたい酒蔵」指定機能を追加</li>
+        <li>ランキングをTOP50表示に変更・自分の順位を常時表示・圏外時は周辺ランクを表示</li>
+        <li>ランキングのアイコンをユーザーのプロフィール画像に変更</li>
+        <li>コメントの編集・削除機能を追加（プレミアム会員向け）</li>
+        <li>削除済みコメントを完全非表示に変更</li>
+        <li>広告バナーを全画面で固定表示に変更</li>
+        <li>酒蔵登録フォームに「読み方」「代表銘柄」欄を追加</li>
+        <li class="fix">【修正】イベント会場名の一部パターンが酒蔵と紐づかない問題を修正</li>
+      </ul>
+    </div>
+
+    <div class="version-block">
+      <div class="version-header">
+        <span class="version-number">バージョン 1.0.3</span>
+        <span class="version-date">2026年5月</span>
+      </div>
+      <ul>
+        <li>「今後7日間でHIT」検索モードを追加（日付指定なしで近日中に営業している酒蔵を検索）</li>
+        <li>AIルートプランナーにルート地図・訪問酒蔵リスト・乗換案内ボタンを追加</li>
+        <li>フィルタの「閉じる」ボタンを追加</li>
+        <li class="fix">【修正】ログイン画面でキーボードがボタンを隠す問題を修正</li>
+      </ul>
+    </div>
+
+    <div class="version-block">
+      <div class="version-header">
+        <span class="version-number">バージョン 1.0.2</span>
+        <span class="version-date">2026年5月</span>
+      </div>
+      <ul>
+        <li>好みの味わいプロフィール機能を追加</li>
+        <li>オススメ数・項目別での絞り込み機能を追加</li>
+        <li>酒蔵めぐりのマナーに「身分証明書を持参しよう」を追加</li>
+      </ul>
+    </div>
+
+    <div class="version-block">
+      <div class="version-header">
+        <span class="version-number">バージョン 1.0.1</span>
+        <span class="version-date">2026年5月</span>
+      </div>
+      <ul>
+        <li class="fix">【修正】ランキングのオススメタブで酒蔵をタップしても詳細が開かない問題を修正</li>
+        <li class="fix">【修正】ランキングの都道府県名が略称で表示される問題を修正</li>
+      </ul>
+    </div>
+
+    <div class="version-block">
+      <div class="version-header">
+        <span class="version-number">バージョン 1.0.0</span>
+        <span class="version-date">2026年5月</span>
+      </div>
+      <ul>
+        <li>🎉 酒蔵めぐりアプリ 正式リリース</li>
+        <li>全国の酒蔵をマップ・検索で探せる</li>
+        <li>訪問記録・写真スタンプ帳機能</li>
+        <li>ランキング・バッジ・レベル機能</li>
+        <li>AIルートプランナー（β）</li>
+        <li>酒蔵オーナーによる営業情報・イベント管理</li>
+      </ul>
+    </div>
+
+  </main>
+  <footer>© 2026 酒蔵めぐり</footer>
+</body>
+</html>
